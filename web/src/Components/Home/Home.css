@@ -1,0 +1,35 @@
+:root {
+    --cyan:#00ffff;
+    --gray: rgb(173, 173, 170);
+}
+.home {
+    max-width: 1200px;
+}
+
+.icons-container {
+    position: fixed;
+    bottom: 0px;
+}
+.icons-container .icons{
+    list-style-type: none;
+}
+
+.icons-container .icons li {
+    margin 5px 0px;
+    
+}
+
+.icons-container .icons::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 70px;
+    margin-top:10px;
+    margin-left:7px;
+    background-color: var(--gray);
+}
+.main {
+    
+margin-left: 30%;
+    color: white;
+}
