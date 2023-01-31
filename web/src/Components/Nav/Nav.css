@@ -1,18 +1,29 @@
 :root {
     --cyan: #00ffff;
     --gray: rgb(173, 173, 170);
+    
 }
-
+.container{
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    z-index: 1;
+    min-width:96%;
+    
+}
 .navbar-brand {
     font-size: 22px !important;
     font-weight: bolder;
     font-family: "times new roman", times, serif;
     color: var(--cyan) !important;
+    ;
+    
 }
 
 #navbarNav  ul li a {
     font-size: 13px;
-    color: var(--gray) 
+    color: var(--gray);
+    
 }
 
 

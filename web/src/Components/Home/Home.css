@@ -1,10 +1,21 @@
-:root {
-    --cyan:#00ffff;
-    --gray: rgb(173, 173, 170);
-}
+
 .home {
-    max-width: 1200px;
+    
+    overflow-y: hidden;
+    background-color: #000;
+width: 100%
 }
+ .home .contenido-banner{
+    padding: 30px;
+    
+    /* background-color: #0DC691; */
+    /* max-width: 350px; */
+    margin-top: 200px;
+    /* margin: auto; */
+    text-align: center;
+    /* border-radius: 40px;   */
+ 
+} 
 
 .icons-container {
     position: fixed;
@@ -26,10 +37,19 @@
     height: 70px;
     margin-top:10px;
     margin-left:7px;
-    background-color: var(--gray);
+    background-color: grey;
 }
-.main {
-    
-margin-left: 30%;
-    color: white;
+main {
+    margin-top: 40px;
+/* margin-left: 30vw; */
+    color: #1d0d38;
+
 }
+
+
+@media only screen and (max-width:768px){
+    .icons-container .icons::after {
+        display: none;
+    }
+}
+
