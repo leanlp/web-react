@@ -12,12 +12,13 @@ export default function About() {
   }, [])
 
   return (
-    <div class="sobremi" >
+    <div className="sobremi" >
 
-      <div class="fila" >
+      <div className="fila" >
 
-        <div class="col" data-aos = "fade-left">
-          <h3>Datos Personales</h3 >
+      <div className="colR" data-aos = "fade-left">
+          {/* <h3>Datos Personales</h3 > */}
+          <div className="about_text">
           <ul>
             <li data-aos ="zoom-in">
               <strong>Email: </strong >
@@ -29,10 +30,13 @@ export default function About() {
             </li>
 
           </ul>
+          </div>
         </div>
+        
+       
 
-        <div class="col" data-aos = "fade-right">
-          <h3>Intereses</h3>
+        <div class="col">
+          {/* <h3>Intereses</h3> */}
           <div class="contenedor-intereses" >
             <div class="interes" data-aos ="zoom-in">
               <i class="fa-solid fa-link"></i>
@@ -65,7 +69,7 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
 
   )
 }

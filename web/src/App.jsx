@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Nav from './Components/Nav/Nav'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
+import Experience from './Components/Experience/Experience'
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
     <>
      <Nav></Nav>
      <Home></Home>
-     <About></About>
-     
+     {/* <About></About> */}
+     <Experience></Experience>
      </>
     
     
